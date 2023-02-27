@@ -1,0 +1,68 @@
+//Colors//
+
+//Blue//
+@blue-primary: #35B5C9;
+@blue-footer: #156897;
+@blue-border:#76DAE4;
+@blue-user-card:#35B5C9;
+@blue-call-card:#76DAE4;
+@blue-agency-card:#15A1B7;
+@blue-administration-hover:#35B5C9;
+@blue-closed-file:#24BDFF;
+@blue-button-hover:#025D73;
+@blue-button-disabled:#C5FBFF;
+
+//Yellow//
+@yellow-broggi:#FDC618;
+@yellow-primary:#FFE669;
+@yellow-disabled:#FFFFC9;
+
+//Pink//
+@pink-primary:#E33386;
+
+//Purple//
+@purple-primary:#A55FEB;
+
+//Green//
+@green-in-process:#49F58D;
+@green-accepted:#00D154;
+
+
+
+// Estilos botones //
+
+/* Primary button styles */
+.primary-btn {
+    background-color: @blue-primary;
+    color: white;
+    border-radius: 20px;
+    border: none ;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+.primary-btn:hover{
+    background-color: @blue-button-hover;
+}
+
+/* Secondary button styles */
+.secondary-btn {
+    color: @blue-primary;
+    background-color: white;
+    border-radius: 20px;
+    border: 3px solid @blue-border ;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* Disabled button styles */
+.disabled-btn {
+    color: black;
+    background-color: @blue-button-disabled;
+    border-radius: 20px;
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
